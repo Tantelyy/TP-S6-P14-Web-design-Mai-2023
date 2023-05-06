@@ -6,7 +6,7 @@
     <bean id="dataSource" class="org.apache.commons.dbcp.BasicDataSource"
           destroy-method="close">
         <property name="driverClassName" value="org.postgresql.Driver" />
-        <property name="url" value="postgresql://postgres:kYctwBJXMB1lA329gH3H@containers-us-west-73.railway.app:6427/railway" />
+        <property name="url" value="jdbc:postgresql://containers-us-west-73.railway.app:6427/railway" />
         <property name="username" value="postgres" />
         <property name="password" value="kYctwBJXMB1lA329gH3H" />
     </bean>
