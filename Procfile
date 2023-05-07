@@ -1,1 +1,1 @@
-web: java -jar target/IAContentFO-1.0-SNAPSHOT.war
+java $JAVA_OPTS -jar target/dependency/webapp-runner.jar --port $PORT target/*.war
