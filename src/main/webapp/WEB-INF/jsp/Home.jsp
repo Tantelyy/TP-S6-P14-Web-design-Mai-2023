@@ -111,6 +111,7 @@
         </div>
       </main> <!-- main -->
     </div> <!-- .wrapper -->
+    <script src="<%= request.getContextPath() %>/assets/js/bootstrap.min.js"></script>
     <script src="<%= request.getContextPath() %>/assets/js/popper.min.js"></script>
     <script src='<%= request.getContextPath() %>/assets/js/jquery.stickOnScroll.js'></script>
     <script src="<%= request.getContextPath() %>/assets/js/tinycolor-min.js"></script>
