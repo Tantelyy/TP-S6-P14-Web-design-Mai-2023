@@ -123,7 +123,7 @@
     <script src="<%= request.getContextPath() %>/assets/js/gauge.min.js"></script>
     <script src="<%= request.getContextPath() %>/assets/js/jquery.sparkline.min.js"></script>
     <script src="<%= request.getContextPath() %>/assets/js/apexcharts.min.js"></script>
-    <script src="<%= request.getContextPath() %>/assets/js/apexcharts.custom.js"></script>
+    <!-- <script src="/assets/js/apexcharts.custom.js"></script> -->
     <script src='<%= request.getContextPath() %>/assets/js/jquery.mask.min.js'></script>
     <script src='<%= request.getContextPath() %>/assets/js/select2.min.js'></script>
     <script src='<%= request.getContextPath() %>/assets/js/jquery.steps.min.js'></script>
@@ -335,7 +335,7 @@
         });
       }
     </script>
-    <script src="<%= request.getContextPath() %>/assets/js/apps.js"></script>
+    <!-- <script src="/assets/js/apps.js"></script> -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-56159088-1"></script>
     <script>
