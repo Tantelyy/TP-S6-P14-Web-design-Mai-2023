@@ -113,7 +113,7 @@
         </div>
       </main> <!-- main -->
     </div> <!-- .wrapper -->
-    <!-- <script src="/assets/js/jquery.min.js"></script> -->
+    <script src="/assets/js/jquery.min.js"></script>
     <script src="<%= request.getContextPath() %>/assets/js/popper.min.js"></script>
     <!-- <script src="/assets/js/moment.min.js"></script> -->
     <!-- <script src="/assets/js/bootstrap.min.js"></script> -->
