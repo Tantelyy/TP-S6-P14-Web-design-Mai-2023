@@ -37,7 +37,7 @@
     <!-- Date Range Picker CSS -->
     <link rel="stylesheet" href="<%= request.getContextPath() %>/assets/css/daterangepicker.css">
     <!-- App CSS -->
-    <!-- <link rel="stylesheet" href="/assets/css/app-light.css" id="lightTheme"> -->
+    <link rel="stylesheet" href="/assets/css/app-light.css" id="lightTheme">
     <link rel="stylesheet" href="<%= request.getContextPath() %>/assets/css/app-dark.css" id="darkTheme" disabled>
   </head>
   <body class="vertical  light  ">
