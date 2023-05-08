@@ -119,7 +119,7 @@
     <!-- <script src="/assets/js/bootstrap.min.js"></script> -->
     <!-- <script src="/assets/js/simplebar.min.js"></script> -->
     <!-- <script src='/assets/js/daterangepicker.js'></script> -->
-    <script src='<%= request.getContextPath() %>/assets/js/jquery.stickOnScroll.js'></script>
+    <!-- <script src='/assets/js/jquery.stickOnScroll.js'></script> -->
     <script src="<%= request.getContextPath() %>/assets/js/tinycolor-min.js"></script>
     <script src="<%= request.getContextPath() %>/assets/js/config.js"></script>
     <!-- <script src="/assets/js/d3.min.js"></script> -->
