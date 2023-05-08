@@ -120,12 +120,12 @@
     <!-- <script src="/assets/js/simplebar.min.js"></script> -->
     <!-- <script src='/assets/js/daterangepicker.js'></script> -->
     <!-- <script src='/assets/js/jquery.stickOnScroll.js'></script> -->
-    <script src="<%= request.getContextPath() %>/assets/js/tinycolor-min.js"></script>
-    <script src="<%= request.getContextPath() %>/assets/js/config.js"></script>
+    <script src="/assets/js/tinycolor-min.js"></script>
+    <!-- <script src="<%= request.getContextPath() %>/assets/js/config.js"></script> -->
     <!-- <script src="/assets/js/d3.min.js"></script> -->
     <script src="<%= request.getContextPath() %>/assets/js/topojson.min.js"></script>
-    <script src="<%= request.getContextPath() %>/assets/js/datamaps.all.min.js"></script>
-    <script src="<%= request.getContextPath() %>/assets/js/datamaps-zoomto.js"></script>
+    <!-- <script src="/assets/js/datamaps.all.min.js"></script> -->
+    <!-- <script src="/assets/js/datamaps-zoomto.js"></script> -->
     <script src="<%= request.getContextPath() %>/assets/js/datamaps.custom.js"></script>
     <!-- <script src="/assets/js/Chart.min.js"></script> -->
     <!-- <script>
@@ -137,7 +137,7 @@
     <!-- <script src="/assets/js/jquery.sparkline.min.js"></script> -->
     <!-- <script src="/assets/js/apexcharts.min.js"></script> -->
     <script src="<%= request.getContextPath() %>/assets/js/apexcharts.custom.js"></script>
-    <script src="<%= request.getContextPath() %>/assets/js/apps.js"></script>
+    <!-- <script src="/assets/js/apps.js"></script> -->
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-56159088-1"></script>
     <script>
