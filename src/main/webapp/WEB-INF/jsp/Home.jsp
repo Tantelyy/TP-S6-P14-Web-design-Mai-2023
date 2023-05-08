@@ -24,10 +24,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
+    <meta name="description" content="Contenus">
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
-    <title>Home</title>
+    <title>Contenus</title>
     <!-- Simple bar CSS -->
     <link rel="stylesheet" href="<%= request.getContextPath() %>/assets/css/simplebar.css">
     <!-- Fonts CSS -->
@@ -80,7 +80,7 @@
             <div class="col-md-12">
               <div class="row align-items-center my-3">
                 <div class="col">
-                  <h2 class="page-title">Contenus</h2>
+                  <h1 class="page-title">Contenus</h1>
                 </div>
               </div>
               <div class="file-container border-top">
@@ -92,7 +92,7 @@
                             <div class="card shadow text-center mb-4">
                               <div class="card-body">
                                   <div class="header">
-                                      <h4 class="title"><%= content.getTitle() %></h4>
+                                      <h2 class="title"><%= content.getTitle() %></h2>
                                   </div>
                               </div> <!-- .card-body -->
 
