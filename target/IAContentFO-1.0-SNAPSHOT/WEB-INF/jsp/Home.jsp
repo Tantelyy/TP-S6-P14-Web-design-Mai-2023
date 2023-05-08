@@ -128,11 +128,11 @@
     <script src="<%= request.getContextPath() %>/assets/js/datamaps-zoomto.js"></script>
     <script src="<%= request.getContextPath() %>/assets/js/datamaps.custom.js"></script>
     <!-- <script src="/assets/js/Chart.min.js"></script> -->
-    <script>
+    <!-- <script>
       /* defind global options */
       Chart.defaults.global.defaultFontFamily = base.defaultFontFamily;
       Chart.defaults.global.defaultFontColor = colors.mutedColor;
-    </script>
+    </script> -->
     <script src="<%= request.getContextPath() %>/assets/js/gauge.min.js"></script>
     <!-- <script src="/assets/js/jquery.sparkline.min.js"></script> -->
     <!-- <script src="/assets/js/apexcharts.min.js"></script> -->
