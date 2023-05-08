@@ -24,10 +24,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
+    <meta name="description" content="Contenus">
     <meta name="author" content="">
     <link rel="icon" href="favicon.ico">
-    <title>Home</title>
+    <title>Contenus</title>
     <!-- Simple bar CSS -->
     <link rel="stylesheet" href="<%= request.getContextPath() %>/assets/css/simplebar.css">
     <!-- Fonts CSS -->
@@ -48,21 +48,21 @@
         </button>
       </nav>
       <aside class="sidebar-left border-right bg-white shadow" id="leftSidebar" data-simplebar>
-        <a href="#" class="btn collapseSidebar toggle-btn d-lg-none text-muted ml-2 mt-3" data-toggle="toggle">
-          <i class="fe fe-x"><span class="sr-only"></span></i>
-        </a>
+        <!-- <a href="#" class="btn collapseSidebar toggle-btn d-lg-none text-muted ml-2 mt-3" data-toggle="toggle"> -->
+          <!-- <i class="fe fe-x"><span class="sr-only"></span></i> -->
+        <!-- </a> -->
         <nav class="vertnav navbar navbar-light">
           <!-- nav bar -->
           <div class="w-100 mb-4 d-flex">
-            <a class="navbar-brand mx-auto mt-2 flex-fill text-center">
-              <svg version="1.1" id="logo" class="navbar-brand-img brand-sm" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 120 120" xml:space="preserve">
+            <!-- <a class="navbar-brand mx-auto mt-2 flex-fill text-center"> -->
+              <!-- <svg version="1.1" id="logo" class="navbar-brand-img brand-sm" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 120 120" xml:space="preserve">
                 <g>
                   <polygon class="st0" points="78,105 15,105 24,87 87,87 	" />
                   <polygon class="st0" points="96,69 33,69 42,51 105,51 	" />
                   <polygon class="st0" points="78,33 15,33 24,15 87,15 	" />
                 </g>
-              </svg>
-            </a>
+              </svg> -->
+            <!-- </a> -->
           </div>
           <ul class="navbar-nav flex-fill w-100 mb-2">
             <li class="nav-item w-100">
@@ -80,7 +80,7 @@
             <div class="col-md-12">
               <div class="row align-items-center my-3">
                 <div class="col">
-                  <h2 class="page-title">Contenus</h2>
+                  <h1 class="page-title">Contenus</h1>
                 </div>
               </div>
               <div class="file-container border-top">
@@ -92,7 +92,7 @@
                             <div class="card shadow text-center mb-4">
                               <div class="card-body">
                                   <div class="header">
-                                      <h4 class="title"><%= content.getTitle() %></h4>
+                                      <h2 class="title"><%= content.getTitle() %></h2>
                                   </div>
                               </div> <!-- .card-body -->
 
