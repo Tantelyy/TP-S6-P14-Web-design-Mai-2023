@@ -108,7 +108,7 @@
     <script src='<%= request.getContextPath() %>/assets/js/daterangepicker.js'></script>
     <script src='<%= request.getContextPath() %>/assets/js/jquery.stickOnScroll.js'></script>
     <script src="<%= request.getContextPath() %>/assets/js/tinycolor-min.js"></script>
-    <script src="<%= request.getContextPath() %>/assets/js/config.js"></script>
+    <!-- <script src="/assets/js/config.js"></script> -->
     <script src="<%= request.getContextPath() %>/assets/js/d3.min.js"></script>
     <script src="<%= request.getContextPath() %>/assets/js/topojson.min.js"></script>
     <script src="<%= request.getContextPath() %>/assets/js/datamaps.all.min.js"></script>
