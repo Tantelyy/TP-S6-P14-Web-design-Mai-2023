@@ -9,6 +9,12 @@
         <param-value>/WEB-INF/spring-context.xml</param-value>
     </context-param>
 
+    <!-- gzip -->
+    <context-param>
+        <param-name>spring.config.location</param-name>
+        <param-value>/WEB-INF/classes/application.properties</param-value>
+    </context-param>
+
     <listener>
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
     </listener>
@@ -41,7 +47,7 @@
         <url-pattern>/*</url-pattern>
     </filter-mapping>
 
-    <!-- filtre gzip -->
+    <!-- compression gzip -->
     <filter>
         <filter-name>gzipFilter</filter-name>
         <filter-class>org.springframework.web.filter.ShallowEtagHeaderFilter</filter-class>
@@ -55,11 +61,5 @@
         <filter-name>gzipFilter</filter-name>
         <url-pattern>/*</url-pattern>
     </filter-mapping>
-
-    <context-param>
-        <param-name>spring.config.location</param-name>
-        <param-value>/WEB-INF/classes/application.properties</param-value>
-    </context-param>
-
 
 </web-app>
